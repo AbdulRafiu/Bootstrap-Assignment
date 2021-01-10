@@ -1,0 +1,85 @@
+.upnav{
+    position: top;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.upnav img{
+    height: 50px;
+}
+.upnav h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.upnav #phone{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: x-large;
+}
+.upnav #text{
+    color: grey;
+    font-weight: 400;
+    font-size: larger;
+}
+.navbar img{
+    height: 50px;
+}
+.nav-item{
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+.nav-item:hover{
+    background-color: grey;
+    border-radius: .5pc;
+    color: darkgrey;
+}
+form{
+    background-image: url(Images/Texture.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+form h4{
+    font-weight: 500;
+    font-size: 3.2em;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.aboutus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.aboutus .row{
+    display: flex !important;
+    justify-items: space-between !important;
+    align-items: center !important;
+}
+.aboutus h4{
+    font-size: xx-large;
+    text-align: center;
+}
+.aboutus font{
+    font-size: x-large;
+    font-weight: 300;
+    font-stretch: ultra-expanded;
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.footer img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: right;
+}
+.footer img:hover {
+    cursor: pointer;
+}
